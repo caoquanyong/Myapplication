@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_PRIVILEGED"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name="com.example.bluetoothlibrary.Config">
+
+        <activity android:name=".Activity.SplashActivity"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Device.DeviceScanActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor">
+        </activity>
+        <activity android:name=".Activity.LoginActivity"
+            android:screenOrientation="nosensor"/>
+        <activity
+            android:name=".Activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            />
+        <activity android:name=".Activity.RegisterActivity"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".Activity.AgreementActivity"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".Activity.HealthTestActivity"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".Activity.HealthMallActivity"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".Activity.TeleMedicineActivity"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".Activity.OfflineReservationActivity"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".Activity.ViewReportActivity"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".Activity.ViewHistoryActivity"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".Activity.ScanTestActivity"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".Activity.HealthQuestionActivity"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".Activity.ChoosePhotoActivity"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".Activity.PlusImageActivity"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".Activity.TeleReservationActivity"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".Activity.OnlinePayActivity"
+            android:screenOrientation="nosensor"/>
+        <activity android:name=".Activity.OfflineDoctorActivity"
+            android:screenOrientation="nosensor"></activity>
+    </application>
+
+</manifest>

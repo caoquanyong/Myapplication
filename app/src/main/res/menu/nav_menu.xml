@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/menu_home"
+            android:title="我的账户" />
+        <item
+            android:id="@+id/nav_baoxian"
+            android:icon="@drawable/menu_guahao"
+            android:title="我的保险" />
+
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/nav_friends"
+            android:title="我的孩子" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/nav_task"
+            android:title="我的药店" />
+        <item
+            android:id="@+id/nav_mail"
+            android:icon="@drawable/nav_mail"
+            android:title="我的文件" />
+        <item
+            android:id="@+id/nav_task"
+            android:icon="@drawable/menu_about"
+            android:title="常见问题" />
+    </group>
+</menu>

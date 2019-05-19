@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+        <TextView
+            android:id="@+id/health_monitor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/contents_text"
+            android:gravity="center"
+            android:background="@color/bg_color"
+            android:text="@string/health_test"/>
+        <TextView
+            android:id="@+id/line1"
+            android:layout_width="1dp"
+            android:background="@color/help_view"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/health_mall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/contents_text"
+            android:gravity="center"
+            android:background="@color/bg_color"
+            android:text="@string/health_mall"/>
+        <TextView
+            android:id="@+id/line2"
+            android:layout_width="1dp"
+            android:background="@color/help_view"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:id="@+id/telemedicine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/contents_text"
+            android:gravity="center"
+            android:background="@color/bg_color"
+            android:text="@string/telemedicine"/>
+        <TextView
+            android:id="@+id/line3"
+            android:layout_width="1dp"
+            android:background="@color/help_view"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:id="@+id/offline_reservation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/contents_text"
+            android:gravity="center"
+            android:background="@color/bg_color"
+            android:text="@string/offline_reservation"/>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<resources>
+
+
+    <string name="app_name">远程医疗</string>
+    <string name="strInputAccHint">输入用户名</string>
+    <string name="strInputPsw">输入密码</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="save_password">记住密码</string>
+    <string name="auto_login">自动登录</string>
+
+    <string name="strAccInputLabel">用户名</string>
+    <string name="strPswInputLabel">密码</string>
+    <string name="queren_password">确认密码</string>
+    <string name="again_password">再次输入密码</string>
+    <string name="name">姓名</string>
+    <string name="sex">性别</string>
+    <string name="birthday">出生日期</string>
+    <string name="tel">电话</string>
+    <string name="address">药店地址</string>
+    <string name="email_address">邮编</string>
+    <string name="emergency_man">紧急联系人</string>
+    <string name="emergency_man_tel">紧急联系人电话</string>
+    <string name="read">我已阅读并同意相关服务条款和隐私政策</string>
+    <string name="username_empty">用户名为空，请重新输入！</string>
+    <string name="userpwd_empty">密码为空，请重新输入！</string>
+    <string name="userpwd_short">密码长度过短，请重新输入！</string>
+    <string name="userPwdAgain_empty">确认密码为空，请重新输入！</string>
+    <string name="userPwd_error">两次输入的密码不一致，请重新输入！</string>
+    <string name="userPersonName_empty">姓名为空，请重新输入！</string>
+    <string name="userAge_empty">年龄为空，请重新输入！</string>
+    <string name="userAge_valid">年龄不合理，请重新输入！</string>
+    <string name="userTel_empty">电话号码为空，请重新输入！</string>
+    <string name="userTel_error">电话号码错误，请重新输入！</string>
+    <string name="userAddress_empty">地址为空，请重新输入！</string>
+    <string name="useremail_empty">邮编为空，请重新输入！</string>
+    <string name="userEmergency_empty">紧急联系人为空，请重新输入！</string>
+    <string name="userEmergencyTel_empty">紧急联系人电话为空，请重新输入！</string>
+    <string name="agreement_error">请先同意服务条款和隐私政策！</string>
+
+    <string name="home">我的账户</string>
+    <string name="health_test">健康检测</string>
+    <string name="health_mall">健康商城</string>
+    <string name="telemedicine">远程医疗</string>
+    <string name="offline_reservation">线下预约</string>
+
+
+    <string name="scan_detection">扫描检测</string>
+    <string name="view_report">查看报告</string>
+    <string name="view_history">查看历史</string>
+
+
+    <string-array name="distance_array">
+        <item>10miles</item>
+        <item>20miles</item>
+        <item>50miles</item>
+    </string-array>
+
+    <string-array name="language_array">
+        <item>普通话</item>
+        <item>英语</item>
+        <item>粤语</item>
+        <item>闽南话</item>
+    </string-array>
+</resources>
